@@ -1,0 +1,21 @@
+{
+    "name": "albo-vieira/json-object",
+    "description": "GeoName API Brazil states and cities ",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Albo Vieira",
+            "email": "albovieira@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "guzzlehttp/guzzle": "^6.1"
+    },
+    "autoload":{
+        "psr-4" : {
+            "GeoNames\\": "src/"
+        }
+    }
+}
+
